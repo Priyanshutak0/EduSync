@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Backendapi</name>
+    </assembly>
+    <members>
+        <member name="M:Backendapi.Controllers.CoursesController.GetInstructorCourses">
+            <summary>
+            Gets all courses for the currently authenticated instructor
+            </summary>
+            <returns>A list of courses created by the instructor</returns>
+            <response code="200">Returns the list of courses</response>
+            <response code="401">If the user is not authenticated</response>
+            <response code="404">If no courses are found</response>
+        </member>
+        <member name="T:Backendapi.Migrations.UpdatePasswordHashLength">
+            <inheritdoc />
+        </member>
+        <member name="M:Backendapi.Migrations.UpdatePasswordHashLength.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Backendapi.Migrations.UpdatePasswordHashLength.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Backendapi.Migrations.UpdatePasswordHashLength.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Backendapi.Migrations.AddPasswordSalt">
+            <inheritdoc />
+        </member>
+        <member name="M:Backendapi.Migrations.AddPasswordSalt.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Backendapi.Migrations.AddPasswordSalt.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Backendapi.Migrations.AddPasswordSalt.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Backendapi.Migrations.UpdateUserCourseRelationships">
+            <inheritdoc />
+        </member>
+        <member name="M:Backendapi.Migrations.UpdateUserCourseRelationships.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Backendapi.Migrations.UpdateUserCourseRelationships.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Backendapi.Migrations.UpdateUserCourseRelationships.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:Backendapi.Migrations.UpdateMediaUrlLength">
+            <inheritdoc />
+        </member>
+        <member name="M:Backendapi.Migrations.UpdateMediaUrlLength.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Backendapi.Migrations.UpdateMediaUrlLength.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:Backendapi.Migrations.UpdateMediaUrlLength.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>

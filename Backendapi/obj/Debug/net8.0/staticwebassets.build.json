@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "qTHLzXiEkdugOLA98PKfVs5zoMOjUwl+4lv/RVwHYUg=",
+  "Source": "Backendapi",
+  "BasePath": "_content/Backendapi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

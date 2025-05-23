@@ -1,0 +1,20 @@
+{
+  "Version": 1,
+  "Hash": "Ls4jJTQIOZoyf0DIoQPW32ZVctqe4HqF+0ECmMcXH+s=",
+  "Source": "Backendapi",
+  "BasePath": "_content/Backendapi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Backendapi\\wwwroot",
+      "Source": "Backendapi",
+      "ContentRoot": "D:\\Abhimanyu\\CAPGEMINI\\Project\\Backendapi\\wwwroot\\",
+      "BasePath": "_content/Backendapi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [],
+  "Endpoints": []
+}
